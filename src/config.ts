@@ -1,7 +1,7 @@
 
 const locales = ['en', 'es', 'de_DE', 'fr', 'it', 'nl', 'pl', 'pt', 'sv', 'tr', 'ru', 'zh', 'ja', "ko"] as const;
 const defaultLocale = "en" as const;
-
+ 
 export type LocaleType = typeof locales[number];
 
 export const appConfig = {
